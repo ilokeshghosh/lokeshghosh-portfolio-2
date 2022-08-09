@@ -1,20 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  
-    <title>Bootstrap Example</title>
-    <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    
-  
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Bootstrap Example</title>
+  <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+
   <style>
-    *{
+    * {
       background-color: black;
-    
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
     }
+
     /* body{
       margin: 0;
       padding: 0;
@@ -26,169 +30,171 @@
       text-align: center;
     } */
 
-    #nav{
+    #nav {
       height: 700px;
     }
-ul{
-  list-style: none;
-}
-.nav-menu{
-  margin-left: 900px;
 
-}
- .nav-item{
- 
-  display: inline;
-  /* text-underline-offset: none; */
-  margin: 20px;
-  float: left;
-  
-  
-  
-}
-.nav-link{
-  text-decoration: none;
-  color:#faf4e4;
-  /* background-color: #b91646; */
-  /* border: 2px solid #faf4e4; */
-  border-radius: 5px;
-  padding: 5px 20px;
-}
-.nav-heading{
-  text-decoration: none;
-  color: #faf4e4;
-  margin: 50px;
-  
-  display: inline;
-  font-size: 25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
-}
+    ul {
+      list-style: none;
+    }
+
+    .nav-menu {
+      margin-left: 900px;
+
+    }
+
+    .nav-item {
+
+      display: inline;
+      /* text-underline-offset: none; */
+      margin: 30px auto;
+      float: left;
 
 
-/* container2 */
-.aviation1{
-  color: #b91646;
-  /* border: 2px solid red; */
-  margin-top: 50px;
-  display: block;
-  text-align: center;
-  font-size: 110px;
-  font-weight: 600;
-  font-family: Charmonman;
-  
-  
-}
-.aviation2{
-  color: #faf4e4;
-  /* border: 2px solid red; */
-  display: block;
-  text-align: center;
-  font-size: 110px;
-  font-weight: 300;
-  font-family: Charmonman;
-  
-  
-}
+
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: #faf4e4;
+      /* background-color: #b91646; */
+      /* border: 2px solid #faf4e4; */
+      border-radius: 5px;
+      padding: 5px 20px;
+    }
+
+    .nav-heading {
+      text-decoration: none;
+      color: #faf4e4;
+      margin: 50px;
+
+      display: inline;
+      font-size: 25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
 
 
-/* about section */
-.about{
-  color: #b91646;
-}
-
-.heading{
-  color: #b91646;
-  /* border: 2px solid red; */
-  margin-top: 50px;
-  display: block;
-  text-align: center;
-  font-size: 110px;
-  font-weight: 600;
-  font-family: Charmonman;
-}
-
-.info{
-  color: #faf4e4;
-  /* border: 2px solid red; */
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 20px;
-  font-family: Open Sans;
-  padding-right: 6rem;
-}
-#about{
-  height: 700px;
-}
+    /* container2 */
+    .aviation1 {
+      color: #b91646;
+      /* border: 2px solid red; */
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 600;
+      font-family: Charmonman;
 
 
+    }
+
+    .aviation2 {
+      color: #faf4e4;
+      /* border: 2px solid red; */
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 300;
+      font-family: Charmonman;
+
+
+    }
+
+
+    /* about section */
+    .about {
+      color: #b91646;
+    }
+
+    .heading {
+      color: #b91646;
+      /* border: 2px solid red; */
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 600;
+      font-family: Charmonman;
+    }
+
+    .info {
+      color: #faf4e4;
+      /* border: 2px solid red; */
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 20px;
+      font-family: Open Sans;
+      padding-right: 6rem;
+    }
+
+    #about {
+      height: 700px;
+    }
   </style>
-  </head>
-  <body >
+</head>
+
+<body>
 
 
-  
+
   <section id="nav">
-  <div class="container"> 
-    <header class="navbar">  <!-- navbar --> 
-    
-      <ul class="nav-menu"> <!-- nav-menu -->
-        <li class="nav-item"><a href="#about" class="nav-link" aria-current="page">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Background</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-      </ul>
-      <!-- nav-heading -->
-      <!-- <a href="#" class="nav-heading">  -->
-      
+      <!-- navbar -->
+      <header class="navbar">
+        <ul class="nav-menu">
+          <!-- nav-menu -->
+          <li class="nav-item"><a href="#about" class="nav-link" aria-current="page">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Background</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- nav-heading -->
+        <a href="#" class="nav-heading"> </a>
         <!-- heading-content -->
-      <!-- </a>
-        <span class="heading-content">LOKESH/PORTFOLIO</span>   -->
+        <span class="heading-content">LOKESH/PORTFOLIO</span>
+      </header>
 
-    </header>
-
-
-
-
-   
-
-      <div class="container2">
-        <span class="aviation1">hi there !</span>
-        <span class="aviation2">i'am lokesh ghosh</span>
-    </section>
+    <!-- heading description -->
+    <div class="container2">
+      <span class="aviation1">hi there !</span>
+      <span class="aviation2">i'am lokesh ghosh</span>
+    </div>
+  </section>
 
 
-  </div>
 
 
- <!-- about section -->
+  <!-- about section -->
 
   <!-- <div> -->
-    <section class="about" id="about">
-      <h1 class="heading"> <span>about</span> me </h1>
-      <div class="row">
-          <div class="info">
-              <p>
-                  HEllO!
-              </p>
-              <p>
-                MY NAME IS LOKESH GHOSH. CURRENTLY, I'M PURSUING BACHELOR OF COMPUTER APPLICATION FROM MAULANA ABUL KALAM AZAD UNIVERSITY OF TECHNOLOGY, WEST BENGAL. I AM VERY MUCH INTERESTED IN WEB DEVELOPMENT AND DESIGN. YOU CAN GO THROUGH MY CV BELOW HERE FOR DETAILS OF MY BACKGROUND AND DON'T FORGET TO CHECK MY PROJECTS :)
-              </p>
-          </div>
+  <section class="about" id="about">
+    <h1 class="heading"> <span>about</span> me </h1>
+    <div class="row">
+      <div class="info">
+        <p>
+          HEllO!
+        </p>
+        <p>
+          MY NAME IS LOKESH GHOSH. CURRENTLY, I'M PURSUING BACHELOR OF COMPUTER APPLICATION FROM MAULANA ABUL KALAM AZAD
+          UNIVERSITY OF TECHNOLOGY, WEST BENGAL. I AM VERY MUCH INTERESTED IN WEB DEVELOPMENT AND DESIGN. YOU CAN GO
+          THROUGH MY CV BELOW HERE FOR DETAILS OF MY BACKGROUND AND DON'T FORGET TO CHECK MY PROJECTS :)
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
   <!-- </div> -->
-   
-  
-  
 
 
 
-  
 
 
 
-  </body>
+
+
+
+
+</body>
+
 </html>
