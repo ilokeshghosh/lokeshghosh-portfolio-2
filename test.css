@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+:root{
+    --color:#faf4e4;
+    --color1:#b91646;
+}
+.navbar{
+    background-color: black;
+    height: 800px;
+    
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: var(--color);
+}
+.navbar li a:hover{
+    color: var(--color1);
+    
+}
+.home{
+    float: left;
+    color: var(--color);
+    padding: 12px 75px;
+    
+}
+.navbar .home a{
+  
+    
+    color: var(--color);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/* greet */
+.navbar .greet .greet1{
+    color: var(--color1);
+      /* border: 2px solid red; */
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 600;
+      font-family: Charmonman;
+
+}
+.navbar .greet .greet2{
+    color: var(--color);
+      /* border: 2px solid red; */
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 300;
+      font-family: Charmonman;
+
+}
+
+/* about section */
+
+.about{
+    height: 700px;
+}
+.about .info .heading{
+    font-family: Charmonman;
+    color: var(--color1);
+    
+      /* border: 2px solid red; */
+      margin-top: 10px;
+      display: block;
+      text-align: center;
+      font-size: 110px;
+      font-weight: 600;
+      font-family: Charmonman;
+    
+}
+.about .info {
+    color: var(--color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 20px;
+    width: 50%;
+    border: 2px solid var(--color);
+   float: left;
+   padding: 10px;
+   text-align: justify;
+
+    
+}
+.about .image {
+    border: 5px solid var(--color);
+    border-radius: 10px;
+    float: left;
+    margin-left: 40px;
+    width: 600px;
+    height: 600px;
+   
+    /* box-shadow: 20px 20px 20px 20px  inset; */
+}
+.about .image img{
+    border: 40px solid var(--color1);
+    border-radius: 4px;
+    margin: auto;
+    height: 521px;
+    width: 520px;
+}
+
+
+/* background */
+
