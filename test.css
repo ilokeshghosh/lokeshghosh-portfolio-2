@@ -127,3 +127,53 @@
 
 /* background */
 
+.background .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+  }
+  
+  .background .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid var(--color1);
+    position: relative;
+  }
+  
+  .background .box-container .box span {
+    font-size: 1.3rem;
+    background: var(--color1);
+    color: var(--color);
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .background .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--color1);
+    padding-top: 1.5rem;
+  }
+  
+  .background .box-container .box p {
+    font-size: 1.4rem;
+    color: var(--color);
+    padding: 1rem 0;
+  }
+  
+  .background .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color1);
+    background: var(--color) ;
+  }
