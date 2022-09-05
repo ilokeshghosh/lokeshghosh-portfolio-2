@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: var(--light-flesh);
+ 
    
+}
+
+body{
+  background-color: var(--light-flesh);
 }
 
 :root{
@@ -21,6 +25,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
     
   
   }
@@ -89,9 +94,14 @@ ul {
 
   /* education */
   .education{
-    height: 1000px;
+    height: 900px;
   }
 
+  .edu-heading h3{
+    display: block;
+    font-size: 100px;
+    color:var(--less-faint-blue);
+  }
 
-  /* timeline */
+  
   
