@@ -13,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
+  /* overflow: hidden; */
 }
 
 p, .paragraph {
@@ -404,6 +405,9 @@ textarea.form-control {
   background-color: #41228e;
   padding: 15px 100px;
 }
+.navigation .navbar a img{
+  height: 50px;
+}
 @media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px;
@@ -442,7 +446,11 @@ textarea.form-control {
 .hero-area h1 {
   position: relative;
   z-index: 2;
+  color: #404258;
+  
+
 }
+
 
 .layer {
   position: absolute;
@@ -461,42 +469,66 @@ textarea.form-control {
 
 #l3 {
   top: 200px;
-  left: 40%;
+  left: 35%;
+}
+#l3 img{
+  height: 100px;
 }
 
 #l4 {
-  top: 200px;
-  right: 40%;
+  top: 260px;
+  right: 37%;
+}
+#l4 img{
+  height: 100px;
 }
 
 #l5 {
-  top: 100px;
-  right: -150px;
+  top: 140px;
+  right: 150px;
+}
+#l5 img{
+  height: 190px;
+
 }
 
 #l6 {
-  bottom: -20px;
-  left: 10%;
+  bottom: 20px;
+  left: 5%;
+}
+#l6 img{
+  height: 200px;
 }
 
 #l7 {
-  bottom: 100px;
+  bottom: 80px;
   left: 20%;
+}
+#l7 img{
+  height: 100px;
 }
 
 #l8 {
-  bottom: 160px;
-  right: 45%;
+  bottom: 130px;
+  right: 50%;
+}
+#l8 img{
+  height: 100px;
 }
 
 #l9 {
   bottom: 100px;
   right: -10px;
 }
+#l9 img{
+  height: 160px;
+}
 
 .layer-bg {
   position: absolute;
   bottom: 0;
+  top: 0;
+  /* margin-top: 500px; */
   left: 0;
 }
 
