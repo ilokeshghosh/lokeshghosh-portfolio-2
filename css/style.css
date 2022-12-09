@@ -446,7 +446,9 @@ textarea.form-control {
 .hero-area h1 {
   position: relative;
   z-index: 2;
-  color: #404258;
+  /* color: #00005C; */
+  color: #332FD0;
+  
   
 
 }

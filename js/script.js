@@ -93,6 +93,13 @@
     }
     /* ########################################### /hero parallax ############################################## */
 
+    var typed = new Typed(".typing", {
+        strings: ["Web Developer", "Web Designer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    
     // testimonial-slider
     $('.testimonial-slider').slick({
         dots: true,
